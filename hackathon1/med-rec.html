@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <meta charset = 'utf-8'>  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Medical History</title>
+    <link href="css/med-rec.css" rel="stylesheet" >
+</head>
+<body style="width: 1000px;"> 
+   
+    <div class="np-main">
+         
+        <div class="bg-holder">
+            <img style="width: 1950px;"   src="img\gallery\hero-bg.png">
+        </div>
+        
+        <div class="nav-logo"> 
+            <a class="navbar-brand">
+            <img class="logo-img"  src="img\gallery\logo.png" width="150" alt="logo" /></a>
+           </div>
+    
+    <div class="forms">
+        <form>
+            <h1>Medical History & Records</h1>
+            <hr class = "custom-hr">
+            <center><table class = "the-table" style = "margin:15px; ">
+      
+ 
+                <tr>
+
+                    <td> <input type="checkbox" style="font-size: 15px; display: inline-block; "   name="md-history" value="Tobacco consumption" class="mRadio"> Tobacco consumption </td>
+                    <td> <input class = "check-box" type="checkbox" style="font-size: 15px; display: inline-block;    "  name="md-history" value="Substance abuse" class="mRadio"> Substance abuse </td>  
+                    <td> <input type="checkbox" style="font-size: 15px; display: inline-block;  "  name="md-history" value="Diabetes" class="mRadio"> Diabetes</td>      
+                </tr>
+                <tr>
+
+                    <td> <input type="checkbox" style="font-size: 15px; display: inline-block; "   name="gender" value="male" class="mRadio"> Alcohol consumption </td>
+                    <td> <input class = "check-box" type="checkbox" style="font-size: 15px; display: inline-block;    "  name="gender" value="Female" class="mRadio"> Hypertension </td>  
+                    <td> <input type="checkbox" style="font-size: 15px; display: inline-block;  "  name="gender" value="Other" class="mRadio"> Smoking</td>      
+                </tr>
+               <tr>
+                    <td style="font-weight:500;" >Other Conditions (if any) : </td>
+                    <td> <input class = "blank" type="text" style="  font-size: 25px; padding-left:10px" placeholder="Type Here..."></td>
+                    <td><p class = "more">+ Add More</p></td>
+                </tr>
+                <tr>
+                    <td  style="font-weight:500;" > Major Surgery (if any) : </td>
+                    <td>
+                        <select name="Marital Status"  style="font-size: 25px; width: 330px; height:40px;"id="drop-down">
+                        <option value="Single">Select option</option>
+                        <option value="Single">Organ Transplant</option>
+                        <option value="Married">Removal Of A Brain Tumour</option>
+                        <option value="Divorced">Removal of a damaged kidney</option>
+                        <option  style="margin-top: 49px;" value="Widowed">Heart surgery.</option>
+                    </select>              
+                        </td>
+                        <td><p class = "more">+ Add More</p></td>
+                </tr>
+
+            </table></center>
+            
+
+        </form>
+        <div>
+            <a class="np-button" role="button" href="patient-login.html"> Submit </a>
+        </div>
+        </div>
+   
+    </div>
+</body>
+</html>

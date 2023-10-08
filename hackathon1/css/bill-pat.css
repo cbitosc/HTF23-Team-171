@@ -1,0 +1,297 @@
+body {
+    font-family: Roboto;
+}
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height:1000px;
+    width: 500px;
+}body {
+    font-family: Roboto;
+    width: 990;
+}
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height:1000px;
+    width: 500px;
+}
+.head-report-text {
+   
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 45px;
+
+}
+.appointment-text{
+   
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 70px;
+
+}
+table {
+    position: absolute;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    text-align: left;
+    
+    padding-right:2px ;
+}
+th {
+    background-color: #f2f2f2;
+}
+.patient-info {
+    position: absolute;
+    left: -170px;
+    top: 150px;
+    margin-top: 20px;
+    height: 150px;
+    width: 700px;
+}
+.nav-logo{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: -70px;
+    z-index: 200;
+
+  }     
+  .forms{
+
+    font-size: 15px;
+    position: absolute;
+    z-index: 300;
+    top: 5px;
+    left: -5px;
+    width: 650px;
+    line-height: 25px;
+    text-align: center;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 15px 15px 15px 15px ;
+}
+.row-2{
+    position: absolute;
+    left:10px;
+    top: 130px;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+}
+
+.row-3{
+    position: absolute;
+    left:10px;
+    top: 480px;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+}
+.qr-code{
+    position: relative;
+    top: 675px;
+    left: 300px;
+}
+
+#edit-button{
+    position: absolute;
+    top: 750px;
+    left: 5px;
+    background-color:  #225876;
+    border-bottom-right-radius: 800px;
+    border-color:#225876;
+    border-bottom-style:solid;
+    border-bottom-width:0.8px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice :100%;
+    border-image-source :none;
+    border-image-width :1;
+    border-left-style :solid;
+    border-left-width :0.8px;
+    border-right-style :solid;
+    border-right-width :0.8px;
+    border-top-left-radius :800px;
+    border-top-right-radius :800px;
+    border-bottom-left-radius: 800px;
+    border-top-style :solid;
+    border-top-width :0.8px;
+    box-sizing :border-box;
+    color :rgb(255, 254, 254);
+    cursor :pointer;
+    display :inline-block;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size :20px;
+    font-weight :500;
+    height :56.8px;
+    line-height :24px;
+    padding-bottom :15.6px;
+    padding-left :56px;
+    padding-right :56px;
+    padding-top :15.6px;
+    text-decoration-color :rgb(255, 254, 254);
+    text-decoration-line :none;
+    text-decoration-style :solid;
+    text-decoration-thickness :auto;
+    margin-right: 40px;
+    text-align: center;
+
+ }
+
+#edit-button:hover{
+  background-color: rgb(27, 32, 56);
+  transition: 0.5s;
+  font-size: 22px;
+}
+#submit-button{
+    position: absolute;
+    bottom: -100px;
+    left: -80px;
+    background-color:  #225876;
+    border-bottom-right-radius: 800px;
+    border-color:#225876;
+    border-bottom-style:solid;
+    border-bottom-width:0.8px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice :100%;
+    border-image-source :none;
+    border-image-width :1;
+    border-left-style :solid;
+    border-left-width :0.8px;
+    border-right-style :solid;
+    border-right-width :0.8px;
+    border-top-left-radius :800px;
+    border-top-right-radius :800px;
+    border-bottom-left-radius: 800px;
+    border-top-style :solid;
+    border-top-width :0.8px;
+    box-sizing :border-box;
+    color :rgb(255, 254, 254);
+    cursor :pointer;
+    display :inline-block;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size :20px;
+    font-weight :500;
+    height :56.8px;
+    line-height :24px;
+    padding-bottom :15.6px;
+    padding-left :56px;
+    padding-right :56px;
+    padding-top :15.6px;
+    text-decoration-color :rgb(255, 254, 254);
+    text-decoration-line :none;
+    text-decoration-style :solid;
+    text-decoration-thickness :auto;
+    margin-right: 40px;
+    text-align: center;
+
+ }
+
+#submit-button:hover{
+  background-color: rgb(27, 32, 56);
+  transition: 0.5s;
+  font-size: 22px;
+}
+.radio{
+    position: absolute;
+    border: none;
+    top: 160px;
+
+}
+.head-report-text {
+   
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 45px;
+
+}
+table {
+    position: absolute;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    text-align: left;
+    
+    padding-right:2px ;
+}
+th {
+    background-color: #f2f2f2;
+}
+.patient-info {
+    position: absolute;
+    left: -110px;
+    top: 150px;
+    margin-top: 20px;
+    height: 150px;
+    width: 700px;
+}
+.nav-logo{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: -70px;
+    z-index: 200;
+
+  }     
+  .forms{
+
+    font-size: 15px;
+    position: absolute;
+    z-index: 300;
+    top: 5px;
+    left: -5px;
+    width: 650px;
+    line-height: 25px;
+    text-align: center;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 15px 15px 15px 15px ;
+}
+.row-2{
+    position: absolute;
+    left:10px;
+    top: 130px;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+}
+
+.row-3{
+    position: absolute;
+    left:10px;
+    top: 480px;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+}
+.qr-code{
+    position: relative;
+    top: 775px;
+    left: 590px;
+}
