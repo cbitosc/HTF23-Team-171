@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <meta charset = 'utf-8'>  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New Patient</title>
+    <link href="css/new-patient.css" rel="stylesheet" >
+</head>
+<body style="width: 1000px;"> 
+   
+    <div class="np-main">
+         
+        <div class="bg-holder">
+            <img style="width: 1950px;"   src="img\gallery\hero-bg.png">
+        </div>
+        
+        <div class="nav-logo"> 
+            <a class="navbar-brand">
+            <img class="logo-img"  src="img\gallery\logo.png" width="150" alt="logo" /></a>
+           </div>
+    
+    <div class="forms">
+        <form>
+            <h1>Patient Registration Form</h1>
+            <hr class = "custom-hr">
+            <center><table class = "the-table" style = "margin:10px;">
+                <tr>
+                    <td style="font-weight:500;" >First Name </td>
+                    <td> <input  type="text" style="  font-size: 25px; padding-left:10px;"placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td style="font-weight:500;" >Last Name </td>
+                    <td> <input type="text" style="  font-size: 25px; padding-left:10px;" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td style="font-weight:500;  " > Date of Birth</td>
+                    <td> <input type="date" style="font-size: 25px;  padding-left:10px;" placeholder="DD/MM/YY"></td>
+                </tr>
+                <tr>
+                    <td  style="font-weight:500;" > Gender </td>
+                    <td> <input type="radio" style="font-size: 15px; display: inline-block; "   name="gender" value="male" id="mRadio"> Male </td>
+                    <td> <input type="radio" style="font-size: 15px; display: inline-block;   margin-left :-190px; "  name="gender" value="Female" id="mRadio"> Female </td>  
+                    <td> <input type="radio" style="font-size: 15px; display: inline-block;  margin-left :-40px; "  name="gender" value="Other" id="mRadio"> Other </td>      
+                </tr>
+                <tr>
+                    <td style="font-weight:500;" minlength="12" maxlength="12"  > Aadhar Number  </td>
+                    <td> <input type="number" style="font-size: 25px;   padding-left:10px;" placeholder="Enter Aadhar Number..."minlength="12"
+                        maxlength="12"></td>
+                </tr>
+                <tr>
+                    <td style="font-weight:500;" minlength="12" maxlength="12"  >Insurance Number  </td>
+                    <td> <input type="number" style="font-size: 25px;   padding-left:10px;" placeholder="Enter Insurance Number..."minlength="12"
+                        maxlength="12"></td>
+                </tr>
+                <tr>
+                    <td style="font-weight:500; " > Email ID  </td>
+                    <td> <input type="text" style="font-size: 25px;  padding-left:10px;" placeholder="Enter Email ID..."></td>
+                </tr>
+                <tr>
+                    <td style="font-weight:500; " > Phone Number  </td>
+                    <td> <input type="number" style="font-size: 25px;   padding-left:10px;" placeholder="Enter Phone Number..." minlength="10"
+                        maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td  style="font-weight:500;" > Martial Status </td>
+                    <td>
+                        <select name="Marital Status"  style="font-size: 25px; width: 300px; height:30px;  padding-left:10px; width: 330px; height:35px "id="drop-down">
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                        <option  style="margin-top: 49px;" value="Widowed">Widowed</option>
+                    </select>              
+                        </td>
+                </tr>
+            </table></center>
+            
+
+        </form>
+        <div>
+            <a class="np-button" role="button" href="med-rec.html"> Next </a>
+        </div>
+        </div>
+   
+    </div>
+</body>
+</html>
